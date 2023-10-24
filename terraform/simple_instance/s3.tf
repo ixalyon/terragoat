@@ -3,7 +3,7 @@ provider "aws" {
 }
 
 resource "aws_s3_bucket" "dockingbay" {
-  bucket_prefix = "docking-bay-storage-"
+  bucket_prefix = "docking-bay-storage-ixa"
 
   tags = {
     Name                 = "Docking Bay"
